@@ -1,0 +1,87 @@
+/* footer css start */
+.line li a{
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+.ft{
+    text-align: center;
+    font-size: 1.2rem;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .dabbas {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-sm-6, .col-md-4 {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-icons {
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    margin-left: -3rem;
+  }
+  
+  .social-icons li {
+    margin-left: 10px;
+  }
+  
+  .social-icons a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    .col-sm-6, .col-md-4 {
+      width: 100%;
+      padding: 0;
+    }
+    
+    .social-icons {
+      justify-content: center;
+    }
+  }
+  
+ /* footer css end */
